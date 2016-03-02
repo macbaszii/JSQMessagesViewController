@@ -34,6 +34,8 @@ FOUNDATION_EXPORT const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingD
  */
 @interface JSQMessagesToolbarContentView : UIView
 
+@property (weak, nonatomic) IBOutlet UIView *upperView;
+
 /**
  *  Returns the text view in which the user composes a message.
  */

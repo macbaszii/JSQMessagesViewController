@@ -42,7 +42,7 @@
 
 - (void)testToolbarContentViewInit
 {
-    XCTAssertTrue(CGRectEqualToRect(self.contentView.frame, CGRectMake(0.0f, 0.0f, 320.0f, 44.0f)), @"Frame should be equal to default value");
+    XCTAssertTrue(CGRectEqualToRect(self.contentView.frame, CGRectMake(0.0f, 0.0f, 320.0f, 100.0f)), @"Frame should be equal to default value");
     
     XCTAssertNotNil(self.contentView.textView, @"Text view should not be nil");
     XCTAssertTrue([self.contentView.textView isKindOfClass:[JSQMessagesComposerTextView class]], @"Text view should be a %@", [JSQMessagesComposerTextView class]);
