@@ -97,6 +97,7 @@
  *  That is, the send button will be enabled if there is text in the `textView`, and disabled otherwise.
  */
 - (void)toggleSendButtonEnabled;
+- (void)setUpperContentView:(UIView *)view;
 
 /**
  *  Loads the content view for the toolbar.

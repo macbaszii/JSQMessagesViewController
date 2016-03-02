@@ -90,6 +90,10 @@ static void * kJSQMessagesInputToolbarKeyValueObservingContext = &kJSQMessagesIn
     _preferredDefaultHeight = preferredDefaultHeight;
 }
 
+- (void)setUpperContentView:(UIView *)view {
+    self.contentView.upperView = view;
+}
+
 #pragma mark - Actions
 
 - (void)jsq_leftBarButtonPressed:(UIButton *)sender
